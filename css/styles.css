@@ -367,7 +367,8 @@ ul {
 .item-partner:not(:last-child) {
   margin-right: 30px;
 }
-.item-partner:hover {
+.item-partner:hover,
+.item-partner:focus {
   fill: var(--c-accent);
   border-color: var(--bg-accent);
 }
